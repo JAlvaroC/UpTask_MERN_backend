@@ -65,3 +65,18 @@ permiso para comunicarte de una url a otra ejmplo (localhost:3000) a localhost:4
 UpTask_MERN_backend
 +git init
 + git add .
++ git commit -m "first commit"
++ git branch -M main
++ git remote add origin https://github.com/JAlvaroC/UpTask_MERN_backend.git
++ git push -u origin main
+
+para deploy de jwt eviroment
++ ejecutar opennssl
++ openssl rand -base64  32 (pegaremos remplazo de palabra secreta)
+6xnqoVlsSIHAJFE2XGyUfTRSsra7j2lYpxHUz5SGRS0=
+
+# No se  logro hacer funcionar en la web 
+Link: uptaskmernbackend-production-c09d.up.railway.app
+
+El backed lo asigna la misma 
+pagina
